@@ -5,20 +5,14 @@ import './Navbar.css';
 
 const Navbar = () => {
     return (<div>
-
-
-<nav className="navbar navbar-dark bg-primary">
+<nav className="navbar navbar-dark ">
 <ul>
-  <li><a href="/"></a>Home</li>
-  <li><a href="/"></a>About us</li>
+  <li>Головна</li>
+  <li>Про нас</li>
+  <li>Підкорені вершини</li>
 </ul>
 </nav>
-
-
-<nav className="navbar navbar-light" >
- 
-</nav>
-        
+<hr/>
         </div>)
 };
 

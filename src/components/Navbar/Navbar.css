@@ -3,3 +3,27 @@ ul {
     margin: 0;
     padding: 0;
   }
+
+.navbar {
+  width: 50%;
+  margin: auto;
+  background-color: blueviolet;
+}
+
+ul li  {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    cursor: pointer;
+    color: black;
+  }
+   
+  hr {
+    border: none; 
+    color: gray; 
+    background-color:gray; 
+    height: 2px;
+  }
