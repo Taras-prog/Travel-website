@@ -5,7 +5,6 @@ import './Navbar.css';
 
 const NavbarComponent = () => {
     return (<div>
-      <Button variant="primary">Button</Button>
 <nav className="navbar navbar-dark ">
 <ul>
   <Button variant="contained">Головна</Button>
