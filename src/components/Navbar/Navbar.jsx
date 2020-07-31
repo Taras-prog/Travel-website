@@ -1,19 +1,20 @@
 import React from 'react';
-
+import {Button} from 'react-bootstrap'
 import './Navbar.css';
 
 
-const Navbar = () => {
+const NavbarComponent = () => {
     return (<div>
+      <Button variant="primary">Button</Button>
 <nav className="navbar navbar-dark ">
 <ul>
-  <li>Головна</li>
-  <li>Про нас</li>
-  <li>Підкорені вершини</li>
+  <Button variant="contained">Головна</Button>
+  <Button variant="contained" >Про нас</Button>
+  <Button variant="contained">Підкорені вершини</Button>
 </ul>
 </nav>
 <hr/>
         </div>)
 };
 
-export default Navbar;
+export default NavbarComponent;
