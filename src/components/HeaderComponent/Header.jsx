@@ -12,18 +12,17 @@ import "./Header.css";
 import logo from "../../images/470-4703547_icon-user-icon-hd-png-download.png";
 import NavbarToggle from "react-bootstrap/esm/NavbarToggle";
 import NavbarCollapse from "react-bootstrap/esm/NavbarCollapse";
-import {BrowserRouter, Route, Switch, Link} from "react-router-dom";
-// import RoutesComponent from "../RoutesComponent/Routes";
-// import HomeComponent from "../HomeComponent/Home";
-// import ContactsComponent from "../ContactsComponent/Contacts";
-// import AboutComponent from "../AboutComponent/About";
+import {BrowserRouter as Router, Route, Switch, Link} from "react-router-dom";
+import RoutesComponent from "../RoutesComponent/Routes";
+import HomeComponent from "../HomeComponent/Home";
+import ContactsComponent from "../ContactsComponent/Contacts";
+import AboutComponent from "../AboutComponent/About";
 
 
 const HeaderComponent = () => {
   return (
     <>
-    <BrowserRouter>
-      <Navbar fixed="top" collapseOnSelect expand="md" bg="dark" variant="dark">
+      <Navbar  collapseOnSelect expand="md" bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="/">  
             <img src={logo} className="d-inline-block align-top" alt="Logo" />
@@ -48,8 +47,15 @@ const HeaderComponent = () => {
           </NavbarCollapse>
         </Container>
       </Navbar>
-</BrowserRouter>
-   
+
+      <Router>
+      <Switch>
+      <Route exact path="/" component={HomeComponent}/>
+      <Route exact path="/about" component={AboutComponent}/>
+      <Route exact path="/contacts" component={ContactsComponent}/>
+      <Route exact path="/routes" component={RoutesComponent}/>
+      </Switch>
+      </Router>
     </>
   );
 };
