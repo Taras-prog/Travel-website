@@ -6,15 +6,23 @@ import {
   Form,
   Button,
   FormControl,
+  
 } from "react-bootstrap";
 import "./Header.css";
 import logo from "../../images/470-4703547_icon-user-icon-hd-png-download.png";
 import NavbarToggle from "react-bootstrap/esm/NavbarToggle";
 import NavbarCollapse from "react-bootstrap/esm/NavbarCollapse";
+import {BrowserRouter, Route, Switch, Link} from "react-router-dom";
+// import RoutesComponent from "../RoutesComponent/Routes";
+// import HomeComponent from "../HomeComponent/Home";
+// import ContactsComponent from "../ContactsComponent/Contacts";
+// import AboutComponent from "../AboutComponent/About";
+
 
 const HeaderComponent = () => {
   return (
-    <div>
+    <>
+    <BrowserRouter>
       <Navbar fixed="top" collapseOnSelect expand="md" bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="/">  
@@ -27,12 +35,12 @@ const HeaderComponent = () => {
               <Nav.Link href="/"> Головна </Nav.Link>
               <Nav.Link href="/about"> Про нас </Nav.Link>
               <Nav.Link href="/contacts"> Контакти </Nav.Link>
-              <Nav.Link href="/blog"> Блог </Nav.Link>
+              <Nav.Link href="/routes"> Маршрути </Nav.Link>
             </Nav>
             <Form inline>
               <FormControl
                 type="text"
-                placeholder="Search"
+                placeholder="Пошук"
                 className="mr-sm-2"
               />
               <Button variant="outline-info">Пошук</Button>
@@ -40,7 +48,9 @@ const HeaderComponent = () => {
           </NavbarCollapse>
         </Container>
       </Navbar>
-    </div>
+</BrowserRouter>
+   
+    </>
   );
 };
 
