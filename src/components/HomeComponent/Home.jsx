@@ -1,10 +1,9 @@
 import React from "react";
+import CarouselComponent from '../Carousel/CarouselBox';
 
 const HomeComponent =() => {
     return (
-        <div>
-        Ласкаво просимо!
-        </div>
+        <CarouselComponent/>
     );
 };
 
