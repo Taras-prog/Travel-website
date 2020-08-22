@@ -23,21 +23,21 @@ const AboutComponent = () => {
                 <Col sm={9}>
                     <TabContent className="mt-3">
                         <TabPane eventKey="first">
-                            <img className="first" src="https://restlib.com.ua/sites/default/files/styles/1920x/public/resorts/yaremche1.jpg?itok=iQv9JLAj" />
+                            <img className="first" src="https://restlib.com.ua/sites/default/files/styles/1920x/public/resorts/yaremche1.jpg?itok=iQv9JLAj" alt="first" />
                             <p>Яре́мче (до 2006 року — Яремча) — місто обласного значення в Україні, Івано-Франківській області. 
                             Розміщене на річці Прут, на автошляху Івано-Франківськ — Рахів — Ужгород. 
                             Залізниця зв'язує місто з обласним центром, Тернополем, Києвом та Львовом. 
                             Яремче — найвідоміший кліматичний курорт Прикарпаття, туристичний цент</p>
                         </TabPane>
                         <TabPane eventKey="second">
-                            <img className="second" src="https://static.ukrinform.com/photos/2019_07/thumb_files/630_360_1562348024-585.jpg" />
+                            <img className="second" src="https://static.ukrinform.com/photos/2019_07/thumb_files/630_360_1562348024-585.jpg"  alt="second"/>
                             <p>
                             Полони́на Боржа́ва — гірський масив на Полонинському хребті в Українських Карпатах, між річками Віча і Рікою. 
                             Розташований у межах Воловецького, Міжгірського, Свалявського, Іршавського і (частково) Хустського районів Закарпатської області.
                             </p>
                         </TabPane>
                         <TabPane eventKey="third">
-                            <img className="third" src="https://guide.karpaty.ua/uploads/article_photos/w420_1432630506-726861__w420_parashka2.jpg" />
+                            <img className="third" src="https://guide.karpaty.ua/uploads/article_photos/w420_1432630506-726861__w420_parashka2.jpg"  alt="third"/>
                             <p>Пара́шка (рідко — Параска) — гора в Українських Карпатах, найвища вершина однойменного хребта (Парашка) в Сколівських Бескидах.
                             Висота 1268,5 м над рівнем моря (за іншими даними — 1271 м). 
                             Розташована на відстані 8 км на північний захід від м. Сколе Львівської області. 
