@@ -25,7 +25,7 @@ const HeaderComponent = () => {
       <Navbar  collapseOnSelect expand="md" bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="/">  
-            <img src={logo} className="d-inline-block align-top" alt="Logo" />
+            <img src={logo} className=" logoImg d-inline-block align-top" alt="Logo" />
             Наші подорожі
           </Navbar.Brand>
           <NavbarToggle aria-controls="responsive-navbar-nav" />

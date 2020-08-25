@@ -14,13 +14,13 @@ const CarouselComponent = () => {
     <Carousel.Item>
     <img 
     className=" img"
-    src={firstImg}
-    alt="Гора маковиця"
+    src="https://images.pexels.com/photos/2574643/pexels-photo-2574643.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    alt="first"
     />
         <Carousel.Caption>
-    <h3>Гора Маковиця </h3>
-    <p>Ма́ковиця — гора в Українських Карпатах. Орографічно відноситься до гірського масиву Ґорґани. 
-    Розташована на схід від центральної частини міста Яремче, на межі Яремчанської міської ради та Надвірнянського району Івано-Франківської області.</p>
+    <h5> 
+    «Гори не стадіони, де я задовольняю свої амбіції, вони - храми, де я сповідую мою релігію.»
+    </h5>
         </Carousel.Caption>
     </Carousel.Item>
 
