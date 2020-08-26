@@ -9,9 +9,8 @@ const HomeComponent =() => {
         <Container>
             <h2 className="text-center m-4">Походи</h2>
             <CardDeck>
-                <Card>
+                <Card bg="light" border="warning">
                     <CardImg 
-                    // className="homeImg"
                     variant="bottom"
                    src="https://i1.wp.com/tourbaza.com/wp-content/uploads/2014/07/%D0%91%D0%BE%D1%80%D0%B6%D0%B0%D0%B2%D0%B0.jpg?fit=739%2C554&ssl=1"/>
                    <Card.Body>
@@ -27,9 +26,8 @@ const HomeComponent =() => {
                 <Button variant="primary">Детально про маршрут</Button>
                 </Card>
 
-                <Card>
+                <Card bg="light" border="warning">
                 <CardImg 
-                // className="homeImg"
                 variant="top"
                src="https://vseua.info/wp-content/uploads/2017/12/LR4ezgrIpzA.jpg"/>
                <Card.Body>
@@ -44,9 +42,8 @@ const HomeComponent =() => {
             <Button variant="primary">Детально про маршрут</Button>
             </Card>
 
-            <Card>
-            <CardImg 
-            // className="homeImg"
+            <Card bg="light" border="warning">
+            <CardImg
             variant="top"
            src="https://kuluarpohod.com/files/routes/middle/1584522582_96.jpg"/>
            <Card.Body>

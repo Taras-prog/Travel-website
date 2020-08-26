@@ -12,7 +12,7 @@ import "./Header.css";
 import logo from "../../images/470-4703547_icon-user-icon-hd-png-download.png";
 import NavbarToggle from "react-bootstrap/esm/NavbarToggle";
 import NavbarCollapse from "react-bootstrap/esm/NavbarCollapse";
-import {BrowserRouter as Router, Route, Switch, Link} from "react-router-dom";
+import {BrowserRouter as Router, Route, Switch, } from "react-router-dom";
 import RoutesComponent from "../RoutesComponent/Routes";
 import HomeComponent from "../HomeComponent/Home";
 import ContactsComponent from "../ContactsComponent/Contacts";
